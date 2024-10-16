@@ -8,18 +8,23 @@ export default function Skills() {
             <div className='text-white text-3xl mb-10'>
                 НАВЫКИ<span className='text-selfpurple text-4xl mr-8'>.</span>
             </div>
-            <div className='flex flex-wrap justify-between gap-x-10 p-10 bg-selfgray border border-selfborder rounded-lg'>
-                <ul>
-                    <li className=' text-2xl bold text-selfpurple'>Веб-разработка</li>
-                    <li className='text-lg'>Javascript, Python, Node.js, Prisma <br /> Pania, PostgreSQL</li>
+
+
+            <div className='skills_containers flex justify-between p-10 bg-selfgray border border-selfborder rounded-lg'>
+
+                <ul className='skills_container'>
+                    <li className='skills_title text-2xl bold text-selfpurple'>Веб-разработка</li>
+                    <li className='skills_dis text-lg'>Javascript, Python, Node.js, Prisma <br /> Pania, PostgreSQL, RenJS</li>
                 </ul>
-                <ul >
-                    <li className=' text-2xl bold text-selfpurple'>UX/UI</li>
-                    <li className='text-lg'>Photoshop, Figma, Sketch, XMind <br /> User Research, Usability Testing.</li>
+
+                <ul className='skills_container'>
+                    <li className='skills_title text-2xl bold text-selfpurple'>UX/UI</li>
+                    <li className='skills_dis text-lg'>Photoshop, Figma, Sketch, XMind <br /> User Research, Usability Testing.</li>
                 </ul>
-                <u1>
-                    <li className=' text-2xl bold text-selfpurple'>Frontend разработка</li>
-                    <li className='text-lg'>HTML, CSS, SASS, Bootstrap, Wordpress <br /> Next.js, Vue,js</li>
+
+                <u1 className='skills_container'>
+                    <li className='skills_title text-2xl bold text-selfpurple'>Frontend разработка</li>
+                    <li className='skills_dis text-lg'>HTML, CSS, SASS, Bootstrap, Wordpress <br /> Next.js, Vue,js</li>
                 </u1>
 
             </div>

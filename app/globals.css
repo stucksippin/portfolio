@@ -25,3 +25,21 @@ body {
 li {
   list-style-type: none;
 }
+
+
+
+/* apadtive */
+
+@media screen and (max-device-width: 360px) {}
+
+@media screen and (max-device-width: 768px) {}
+
+@media screen and (max-device-width: 1024px) {}
+
+@media screen and (max-device-width: 1366px) {
+  .skills_containers {
+    font-size: 12px;
+  }
+
+
+}
