@@ -43,7 +43,7 @@ export default function Project() {
                             {el.image && <Image className='project_image rounded-lg shrink-0' src={el.image} alt='project image' />}
                             <div className='project_info flex flex-col p-5'>
                                 <h1 className='mb-2'><span className='text-selfpurple'>Проект:</span> <span className='project_title font-bold'>{el.title}</span> </h1>
-                                <span className='mb-2'><span className='text-selfpurple'>Роль:</span> {el.role}</span>
+                                <span className='project_role mb-2'><span className='text-selfpurple'>Роль:</span> {el.role}</span>
                                 <span className='project_dis'>{el.details}</span>
                             </div>
                         </div>

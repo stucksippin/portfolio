@@ -22,7 +22,7 @@ export default function Skills() {
                     <li className='skills_dis text-lg'>Photoshop, Figma, Sketch, XMind <br /> User Research, Usability Testing.</li>
                 </ul>
 
-                <u1 className='skills_container'>
+                <u1 className='skills_container frontend_box'>
                     <li className='skills_title text-2xl bold text-selfpurple'>Frontend разработка</li>
                     <li className='skills_dis text-lg'>HTML, CSS, SASS, Bootstrap, Wordpress <br /> Next.js, Vue,js</li>
                 </u1>
