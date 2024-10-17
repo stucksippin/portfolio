@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export default function Skills() {
     return (
-        <section className='skills mb-10'>
+        <section id="skills" className='section_skills  mb-10'>
             <div className='text-white text-3xl mb-10'>
                 НАВЫКИ<span className='text-selfpurple text-4xl mr-8'>.</span>
             </div>

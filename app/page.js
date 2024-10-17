@@ -8,12 +8,12 @@ export default function Home() {
 
     <div>
 
-      <div className='w-[70%] mx-auto'>
+      <div className='all_contnent mx-auto'>
         <Header />
 
         <main>
-          <div className='p-10 mb-8 bg-selfgray border border-selfborder rounded-lg'>
-            <span className='text-6xl'>Привет! Я Великанова Дарья, <br />и<span className='text-selfpurple'> фронтенд разработчик</span> </span>
+          <div className='welcome_block p-10 mb-8 bg-selfgray border border-selfborder rounded-lg'>
+            <span className='welcome_title text-6xl'>Привет! Я Великанова Дарья, и<span className='text-selfpurple'> фронтенд разработчик</span> </span>
           </div>
           <Skills />
           <Project />

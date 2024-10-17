@@ -9,13 +9,15 @@ export default function Contact() {
   return (
     <div>
 
-      <section className='mb-24'>
+      <section id="contact" className='section_contact mb-24'>
         <div className='mt-9 text-3xl'>КОНТАКТЫ<span className='mr-8 text-4xl text-selfpurple'>.</span></div>
-        <div className='flex border  rounded-lg p-5 bg-selfgray border-selfborder mt-5'>
-          <div className='w-[50%] flex flex-col justify-center items-center'>
+        <div className='contact_container flex border  rounded-lg p-5 bg-selfgray border-selfborder mt-5 justify-around'>
+
+          <div className='contact_column_left flex flex-col justify-center  shrink-0'>
             <div>
               <li className='mb-3 flex'>
                 <Image
+                  className='contact_image'
                   src={tg}
                   width={25}
                   height={25}
@@ -25,6 +27,7 @@ export default function Contact() {
 
               <li className='flex'>
                 <Image
+                  className='contact_image'
                   src={git}
                   width={25}
                   alt='github image'
@@ -34,10 +37,11 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className='w-[50%] flex flex-col justify-center items-center'>
+          <div className='contact_column_right flex flex-col justify-center  shrink-0'>
             <div>
               <li className='flex mb-3'>
                 <Image
+                  className='contact_image'
                   src={mail}
                   width={25}
                   alt='mail image'
@@ -47,6 +51,7 @@ export default function Contact() {
 
               <li className='flex'>
                 <Image
+                  className='contact_image'
                   src={phone}
                   width={25}
                   alt='phone number image'

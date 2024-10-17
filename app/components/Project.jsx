@@ -33,18 +33,18 @@ export default function Project() {
     return (
         <div>
 
-            <section>
+            <section className='section_project' id="project">
 
                 <div className='text-3xl mb-8'>ПРОЕКТЫ<span className='mr-8 text-4xl text-selfpurple'>.</span></div>
 
                 {
                     projects.map((el, index) => (
-                        <div key={index} className='flex mb-8 border rounded-lg size-8/14 bg-selfgray border-selfborder'>
-                            {el.image && <Image className='shrink-0' src={el.image} width={350} alt='project image' />}
-                            <div className='flex flex-col p-5'>
-                                <h1 className='mb-2'><span className='text-selfpurple'>Проект:</span> <span className='font-bold'>{el.title}</span> </h1>
+                        <div key={index} className='project_item flex mb-8 border rounded-lg bg-selfgray border-selfborder '>
+                            {el.image && <Image className='project_image rounded-lg shrink-0' src={el.image} alt='project image' />}
+                            <div className='project_info flex flex-col p-5'>
+                                <h1 className='mb-2'><span className='text-selfpurple'>Проект:</span> <span className='project_title font-bold'>{el.title}</span> </h1>
                                 <span className='mb-2'><span className='text-selfpurple'>Роль:</span> {el.role}</span>
-                                <span>{el.details}</span>
+                                <span className='project_dis'>{el.details}</span>
                             </div>
                         </div>
                     ))
