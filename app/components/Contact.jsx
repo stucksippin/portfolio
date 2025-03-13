@@ -22,7 +22,7 @@ export default function Contact() {
                   width={25}
                   height={25}
                   alt='tg image' />
-                <a className='ml-2' target="_blank" href="https://t.me/sqspwn">@sqspwn</a>
+                <a className='ml-2 hover:text-selfpurple' target="_blank" href="https://t.me/sqspwn">@sqspwn</a>
               </li>
 
               <li className='flex'>
@@ -32,7 +32,7 @@ export default function Contact() {
                   width={25}
                   alt='github image'
                 />
-                <a className='ml-2' target="_blank" href="https://github.com/stucksippin">stucksippin</a>
+                <a className='ml-2 hover:text-selfpurple' target="_blank" href="https://github.com/stucksippin">stucksippin</a>
               </li>
             </div>
           </div>
@@ -46,7 +46,7 @@ export default function Contact() {
                   width={25}
                   alt='mail image'
                 />
-                <a className='ml-2' href="#">regulationqq@mail.ru</a>
+                <a className='ml-2 hover:text-selfpurple' href="mailto:regulationqq@mail.ru">regulationqq@mail.ru</a>
               </li>
 
               <li className='flex'>
@@ -56,7 +56,7 @@ export default function Contact() {
                   width={25}
                   alt='phone number image'
                 />
-                <a className='ml-2' href="#">+79885698637</a>
+                <a className='ml-2 hover:text-selfpurple' href="tel:+7(988)569-86-37">+79885698637</a>
               </li>
             </div>
           </div>
