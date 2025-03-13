@@ -31,7 +31,10 @@ li {
   list-style-type: none;
 }
 
-
+.all_contnent {
+  width: 70%;
+  margin: 0 auto;
+}
 
 /* apadtive */
 @media screen and (max-width: 1980px) {
@@ -94,6 +97,18 @@ li {
   .frontend_box {
     margin-top: 15px;
   }
+
+  .project_role {
+    font-size: 18px;
+  }
+
+  .project_dis {
+    font-size: 16px;
+  }
+
+  .project_title {
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -136,11 +151,11 @@ li {
   }
 
   .project_dis {
-    font-size: 12px;
+    font-size: 15px;
   }
 
   .project_title {
-    font-size: 14px;
+    font-size: 16px;
   }
 
 
@@ -217,5 +232,18 @@ li {
 
   .contact_column_left {
     margin-bottom: 10px;
+  }
+
+  .project_role {
+    font-size: 16px;
+  }
+
+  .project_title {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .welcome_title {
+    font-size: 31px;
   }
 }
