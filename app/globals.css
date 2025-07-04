@@ -141,10 +141,10 @@ li {
   }
 
 
-  .project_image {
+  /* .project_image {
     width: 240px;
     height: 200px;
-  }
+  } */
 
   .project_role {
     font-size: 16px;
@@ -206,12 +206,12 @@ li {
     padding: 20px 20px;
   }
 
-  .project_image {
+  /* .project_image {
     width: 200px;
     height: 150px;
     margin: 0 auto;
     margin-top: 10px;
-  }
+  } */
 
   .project_item {
     flex-direction: column;

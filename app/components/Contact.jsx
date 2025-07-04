@@ -22,7 +22,7 @@ export default function Contact() {
                   width={25}
                   height={25}
                   alt='tg image' />
-                <a className='ml-2 hover:text-selfpurple' target="_blank" href="https://t.me/sqspwn">@sqspwn</a>
+                <a className='ml-2 hover:text-selfpurple' target="_blank" href="https://t.me/danivelin">@danivelin</a>
               </li>
 
               <li className='flex'>
