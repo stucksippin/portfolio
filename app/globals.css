@@ -109,6 +109,7 @@ li {
   .project_title {
     font-size: 18px;
   }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -213,9 +214,6 @@ li {
     margin-top: 10px;
   } */
 
-  .project_item {
-    flex-direction: column;
-  }
 
   .contact_image {
     width: 18px;
@@ -234,9 +232,20 @@ li {
     margin-bottom: 10px;
   }
 
-  .project_role {
-    font-size: 16px;
+  .project_item {
+    flex-direction: column;
   }
+
+  .project_buttons {
+    margin-top: 10px;
+    justify-content: center;
+  }
+
+  .project_button {
+    padding: 10px 20px;
+  }
+
+
 
   .project_title {
     font-size: 16px;

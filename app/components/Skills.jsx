@@ -14,7 +14,7 @@ export default function Skills() {
 
                 <ul className='skills_container'>
                     <li className='skills_title text-2xl bold text-selfpurple'>Веб-разработка</li>
-                    <li className='skills_dis text-lg'>Javascript, Python, Node.js, Prisma <br /> Pania, PostgreSQL, RenJS</li>
+                    <li className='skills_dis text-lg'>Javascript, Node.js, Prisma, Pania <br /> PostgreSQL, RenJS, OAuth, Docker</li>
                 </ul>
 
                 <ul className='skills_container'>
@@ -24,7 +24,7 @@ export default function Skills() {
 
                 <u1 className='skills_container frontend_box'>
                     <li className='skills_title text-2xl bold text-selfpurple'>Frontend разработка</li>
-                    <li className='skills_dis text-lg'>HTML, CSS, SASS, Bootstrap, Wordpress <br /> Next.js, Vue.js, Tailwind CSS</li>
+                    <li className='skills_dis text-lg'>Next.js, Vue.js, React.js, Tailwind CSS, Zustand <br /> HTML, CSS, SASS, Bootstrap, Wordpress </li>
                 </u1>
 
             </div>

@@ -8,7 +8,7 @@ export default function Home() {
 
     <div>
 
-      <div className='all_contnent mx-auto'>
+      <div className='all_contnent mx-auto font-extralight'>
         <Header />
 
         <main>
