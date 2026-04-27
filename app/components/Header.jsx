@@ -12,7 +12,7 @@ export default function Header() {
             <Link href="#skills">НАВЫКИ</Link>
           </li>
           <li className='header_item mr-10 cursor-pointer hover:text-selfpurple'>
-            <Link href="#project">ПРОЕКТЫ</Link>
+            <Link href="#project">РАЗРАБОТКА</Link>
           </li>
           <li className='header_item mr-10 cursor-pointer hover:text-selfpurple'>
             <Link href="#contact">КОНТАКТЫ</Link>
