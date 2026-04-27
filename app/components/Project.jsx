@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'next/link'
+
 import { ConfigProvider, Tooltip } from 'antd'
 import { QuestionCircleFilled } from '@ant-design/icons'
 import {
@@ -10,8 +10,7 @@ import {
     SupCover,
     ManchiniCover,
     FarmingCover,
-    HasteCover,
-} from './covers'
+} from './Covers'
 
 export default function Project() {
 
