@@ -6,7 +6,7 @@ const cases = [
         desc: 'Продажа прицепов · Уфа',
         url: 'https://priceper.ru/',
         traffic: '×4',
-        top: '58',
+        top: '76',
         months: '2 мес',
     },
     {
@@ -14,7 +14,7 @@ const cases = [
         desc: 'Аренда спецтехники · Ростов-на-Дону',
         url: 'https://globalspeciatrans.ru/',
         traffic: '×3',
-        top: '44',
+        top: '62',
         months: '4 мес',
     },
     {
@@ -22,7 +22,7 @@ const cases = [
         desc: 'Товары для дома и офиса · Ростов-на-Дону',
         url: 'https://atrium61.ru/',
         traffic: '×3.8',
-        top: '83',
+        top: '322',
         months: '7 мес',
     },
     {
@@ -30,7 +30,7 @@ const cases = [
         desc: 'Опалубка и строительные леса · вся Россия',
         url: 'https://upex.pro/',
         traffic: '×3.2',
-        top: '47',
+        top: '60',
         months: '5 мес',
     },
 ]
