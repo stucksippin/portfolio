@@ -24,15 +24,7 @@ const cases = [
         traffic: '×3.8',
         top: '322',
         months: '7 мес',
-    },
-    {
-        name: 'Upex',
-        desc: 'Опалубка и строительные леса · вся Россия',
-        url: 'https://upex.pro/',
-        traffic: '×3.2',
-        top: '60',
-        months: '5 мес',
-    },
+    }
 ]
 
 const services = [
